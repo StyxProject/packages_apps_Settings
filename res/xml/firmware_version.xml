@@ -33,8 +33,16 @@
         settings:enableCopying="true"
         settings:searchable="false"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionDetailPreferenceController"/>
+   
+    <!-- Device name -->
+    <Preference
+        android:key="about_device_name"
+        android:title="@string/about_device_name"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.AboutDeviceNamePreferenceController"/>
 
- <!-- Styx maintainer -->
+    <!-- Styx maintainer -->
     <Preference
         android:key="maintainer"
         android:title="@string/maintainer"
@@ -49,6 +57,7 @@
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.SecurityPatchLevelPreferenceController"/>
 
+<<<<<<< HEAD
     <!-- Custom ROM version -->
     <Preference
         android:key="custom_firmware_version"
@@ -58,12 +67,15 @@
         settings:controller="com.android.settings.deviceinfo.firmwareversion.CustomFirmwareVersionPreferenceController"/>
 
     <!-- Mainline module version -->
+=======
+    <!-- Mainline module version
+>>>>>>> 7621e170bf (Settings: Add Device codename to Firmware version window)
     <Preference
         android:key="module_version"
         android:title="@string/module_version"
         android:summary="@string/summary_placeholder"
         settings:enableCopying="true"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.MainlineModuleVersionPreferenceController"/>
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.MainlineModuleVersionPreferenceController"/> -->
 
     <!-- Baseband -->
     <Preference
