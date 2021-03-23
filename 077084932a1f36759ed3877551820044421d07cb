@@ -16,6 +16,24 @@
       "message": "isn\u0027t better leaving a bit of space between line 12203 and 12204 ??",
       "revId": "077084932a1f36759ed3877551820044421d07cb",
       "serverId": "7c60af70-d7aa-45f8-8287-f2e69458199b"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "278482a9_c83562fe",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 12204,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2021-03-23T15:40:18Z",
+      "side": 1,
+      "message": "for code readability, yes.",
+      "parentUuid": "467812ba_cbef4de0",
+      "revId": "077084932a1f36759ed3877551820044421d07cb",
+      "serverId": "7c60af70-d7aa-45f8-8287-f2e69458199b"
     }
   ]
 }
