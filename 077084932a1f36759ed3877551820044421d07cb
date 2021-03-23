@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "467812ba_cbef4de0",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 12204,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2021-03-23T15:37:45Z",
+      "side": 1,
+      "message": "isn\u0027t better leaving a bit of space between line 12203 and 12204 ??",
+      "revId": "077084932a1f36759ed3877551820044421d07cb",
+      "serverId": "7c60af70-d7aa-45f8-8287-f2e69458199b"
+    }
+  ]
+}
