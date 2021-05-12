@@ -93,7 +93,7 @@
     <string name="max_refresh_rate_title">Maximum refresh rate</string>
     <!-- Navbar length -->
     <string name="navbar_length">Gesture bar length</string>
-    <string name="short_label">Short</string>
+    <string name="hidden_label">Hidden</string>
     <string name="long_label">Long</string>
 
 </resources>
