@@ -66,6 +66,8 @@ public class BuildNumberPreferenceController extends BasePreferenceController im
     private int mDevHitCountdown;
     private boolean mProcessingLastDevHit;
 
+    private static final String PROPERTY_STYX_BUILD = "ro.styx.build.id";
+
     public BuildNumberPreferenceController(Context context, String key) {
         super(context, key);
         mUm = (UserManager) context.getSystemService(Context.USER_SERVICE);
@@ -79,7 +81,7 @@ public class BuildNumberPreferenceController extends BasePreferenceController im
 
     @Override
     public CharSequence getSummary() {
-        return BidiFormatter.getInstance().unicodeWrap(Build.DISPLAY);
+        return SystemProperties.get(PROPERTY_STYX_BUILD);
     }
 
     @Override
